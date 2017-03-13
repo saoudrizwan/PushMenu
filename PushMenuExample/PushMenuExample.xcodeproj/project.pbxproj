@@ -12,6 +12,7 @@
 		103447ED1E769CE300640B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103447EB1E769CE300640B63 /* Main.storyboard */; };
 		103447EF1E769CE300640B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103447EE1E769CE300640B63 /* Assets.xcassets */; };
 		103447F21E769CE300640B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103447F01E769CE300640B63 /* LaunchScreen.storyboard */; };
+		1034480C1E76A96C00640B63 /* PushMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1034480B1E76A96C00640B63 /* PushMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		103447EE1E769CE300640B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103447F11E769CE300640B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103447F31E769CE300640B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1034480B1E76A96C00640B63 /* PushMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushMenu.framework; path = "../../../Library/Developer/Xcode/DerivedData/PushMenu-esyvapalazmnkpewfbcsilxwafkw/Build/Products/Debug-iphonesimulator/PushMenu.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1034480C1E76A96C00640B63 /* PushMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				103447E61E769CE300640B63 /* PushMenuExample */,
 				103447E51E769CE300640B63 /* Products */,
+				1034480A1E76A96C00640B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				103447F31E769CE300640B63 /* Info.plist */,
 			);
 			path = PushMenuExample;
+			sourceTree = "<group>";
+		};
+		1034480A1E76A96C00640B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1034480B1E76A96C00640B63 /* PushMenu.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
