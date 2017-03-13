@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PushMenuExample/PushMenuExample.xcodeproj">
+      location = "container:PushMenu/PushMenu.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:PushMenu/PushMenu.xcodeproj">
+      location = "group:PushMenuExample/PushMenuExample.xcodeproj">
    </FileRef>
 </Workspace>
