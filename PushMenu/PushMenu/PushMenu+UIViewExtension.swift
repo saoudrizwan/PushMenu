@@ -78,7 +78,7 @@ public class PushMenuExtension {
         }
     }
     
-    /// Delay in seconds that it takes a cell to go from the highlighted state to the selected state.
+    /// Delay in seconds that it takes a cell to go from the highlighted state to the selected state. Note: only applies if the user is using force to choose an option.
     public var selectionDelay: TimeInterval {
         get {
             for menu in PushMenuController.shared.menus {

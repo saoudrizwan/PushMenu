@@ -28,20 +28,18 @@ class ViewController: UIViewController {
          If the user selects an option by sliding his finger across the menu, then wherever the user ends the pan gesture is the option that gets selected.
          
          Note: the cancel type option cell is an exception - no matter how long it is highlighted, it will never get selected. This allows the user to look at and think about the options before choosing one.
-         
-         Suggestions
-         - PushMenu is tested and ready for production apps. However, it may be hard for users to grasp how to use PushMenu in the first place. It's suggested to present some sort of alert or demo that explains how to use PushMenu.
          */
         
         // Enable Push Menu on the view - setting this to true creates a new instance of PushMenu() and a PushMenuGestureRecognizer() which the PushMenuController shared instance will handle automatically.
+        // NOTE: this must be set to true before you customize the push menu or add any cells to it.
         photoView.pushMenu.isEnabled = true
-        
-        // Choose a .dark or .light theme. Default is .light.
-        photoView.pushMenu.style = .light
         
         // Set a desired selection delay for the menu's options. This is basically how long it takes for a cell to select while its highlighted.
         // The default value is about half a second (0.45s), so you don't have to set this either.
         photoView.pushMenu.selectionDelay = 0.46
+        
+        // Choose a .dark or .light theme. Default is .light.
+        photoView.pushMenu.style = .light
         
         // Change the alpha values of the push menu's cells background color. Default is 1.0.
         photoView.pushMenu.opacity = 0.7
@@ -70,7 +68,7 @@ class ViewController: UIViewController {
             self.showAlert(message: "Shared with Friends")
         })
         
-        // This is a destructive option - nothing differs from this cell and anyother option cell except its appearance.
+        // This is a destructive option - nothing differs from this cell and a normal option cell except its appearance.
         photoView.pushMenu.addCell(title: "Delete Image", type: .destructive, action: {
             print("'Delete Image' selected!")
             self.showAlert(message: "Deleted Image")
@@ -82,7 +80,7 @@ class ViewController: UIViewController {
          - PushMenu determines the angle and direction of the text in the cells by figuring out what quardant the user's tap is on the screen's coordinate system.
          This ensures that the cells' text is always visible/readable and not cut off. You may run into problems with cells with lengthy titles. In that case, I suggest editing the quadrant angles in PushMenuCell.swift.
          
-         - .light and .dark are just two themes I put together to get PushMenu on its feet. I plan on integrating many more themes in future releases.
+         - Many more themes are coming in future releases.
          
          - If you take a look at the implementation of showAlert(message:) below, you'll notice that there's a 0.3 second delay before showing the user an alert after they select an option from the push menu. This is by design - it takes 0.3 seconds for the push menu to animate off the screen. The action you declared when creating the option cell for the push menu is called immediately after the cell is selected.
          */

@@ -24,49 +24,49 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PushMenu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7c-GU-its">
                                 <rect key="frame" x="126" y="45" width="122" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="h4S-te-oU5"/>
-                                    <constraint firstAttribute="width" constant="122" id="ncs-vf-Ahu"/>
+                                    <constraint firstAttribute="width" constant="122" id="Il8-aB-5Xh"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZCh-7m-EHd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press your finger on the image and apply different pressues." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-CP-L8i">
-                                <rect key="frame" x="71" y="510" width="233" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press your finger on the image and apply different pressues. Or slide your finger across the options." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDi-CP-L8i">
+                                <rect key="frame" x="59" y="505" width="257" height="68"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="FDl-hZ-65m"/>
+                                    <constraint firstAttribute="height" constant="68" id="6KW-qF-0Es"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="LX6-5U-nVV">
+                                <rect key="frame" x="31" y="106" width="312" height="375"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After some time, a highlighted cell becomes selected and its associated action is triggered." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgE-HJ-pKK">
-                                <rect key="frame" x="61" y="564" width="252" height="58"/>
+                                <rect key="frame" x="61" y="581" width="252" height="58"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="BLW-Ct-VNt"/>
+                                    <constraint firstAttribute="height" constant="58" id="UzB-CA-kua"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.54913546950000003" green="0.54913546950000003" blue="0.54913546950000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="LX6-5U-nVV">
-                                <rect key="frame" x="31" y="106" width="312" height="375"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e7c-GU-its" firstAttribute="centerX" secondItem="LX6-5U-nVV" secondAttribute="centerX" id="1oZ-EC-8jS"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hgE-HJ-pKK" secondAttribute="bottom" constant="45" id="6EH-vx-V1E"/>
-                            <constraint firstItem="e7c-GU-its" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EM0-GI-xhm"/>
-                            <constraint firstItem="LX6-5U-nVV" firstAttribute="top" secondItem="e7c-GU-its" secondAttribute="bottom" constant="21" id="Ju8-0X-Zzt"/>
-                            <constraint firstItem="LX6-5U-nVV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="Lh0-Ss-oPl"/>
-                            <constraint firstItem="e7c-GU-its" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="Wgk-2T-hF8"/>
-                            <constraint firstItem="hgE-HJ-pKK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="arJ-Hf-Ofe"/>
-                            <constraint firstItem="BDi-CP-L8i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="dN9-F7-0w4"/>
-                            <constraint firstItem="hgE-HJ-pKK" firstAttribute="top" secondItem="BDi-CP-L8i" secondAttribute="bottom" constant="1" id="dOj-Jw-f9O"/>
-                            <constraint firstItem="BDi-CP-L8i" firstAttribute="centerX" secondItem="hgE-HJ-pKK" secondAttribute="centerX" id="lwJ-dl-FVs"/>
-                            <constraint firstItem="LX6-5U-nVV" firstAttribute="centerX" secondItem="BDi-CP-L8i" secondAttribute="centerX" id="t50-Hb-lou"/>
-                            <constraint firstItem="BDi-CP-L8i" firstAttribute="top" secondItem="LX6-5U-nVV" secondAttribute="bottom" constant="29" id="yFW-1K-phn"/>
+                            <constraint firstItem="hgE-HJ-pKK" firstAttribute="top" secondItem="BDi-CP-L8i" secondAttribute="bottom" constant="8" symbolic="YES" id="0nO-sx-NYM"/>
+                            <constraint firstItem="e7c-GU-its" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="0tF-Hl-uRf"/>
+                            <constraint firstItem="LX6-5U-nVV" firstAttribute="top" secondItem="e7c-GU-its" secondAttribute="bottom" constant="21" id="5Ip-sX-Apj"/>
+                            <constraint firstItem="hgE-HJ-pKK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="6aW-K2-NmD"/>
+                            <constraint firstItem="e7c-GU-its" firstAttribute="centerX" secondItem="LX6-5U-nVV" secondAttribute="centerX" id="FUJ-tf-nEZ"/>
+                            <constraint firstItem="LX6-5U-nVV" firstAttribute="centerX" secondItem="BDi-CP-L8i" secondAttribute="centerX" id="LIM-Ia-A0w"/>
+                            <constraint firstItem="e7c-GU-its" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ymo-uJ-DB5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hgE-HJ-pKK" secondAttribute="bottom" constant="28" id="bNX-dj-8YI"/>
+                            <constraint firstItem="BDi-CP-L8i" firstAttribute="top" secondItem="LX6-5U-nVV" secondAttribute="bottom" constant="24" id="mKy-Fr-EoJ"/>
+                            <constraint firstItem="BDi-CP-L8i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="43" id="nVE-zu-wMl"/>
+                            <constraint firstItem="BDi-CP-L8i" firstAttribute="centerX" secondItem="hgE-HJ-pKK" secondAttribute="centerX" id="ptl-7x-cHt"/>
+                            <constraint firstItem="LX6-5U-nVV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="rkf-xg-6WX"/>
                         </constraints>
                     </view>
                     <connections>
@@ -75,6 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="123.68815592203899"/>
         </scene>
     </scenes>
     <resources>

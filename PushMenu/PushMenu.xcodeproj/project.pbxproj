@@ -427,6 +427,7 @@
 				103447CB1E7696F200640B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		103447CC1E7696F200640B63 /* Build configuration list for PBXNativeTarget "PushMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +436,7 @@
 				103447CE1E7696F200640B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

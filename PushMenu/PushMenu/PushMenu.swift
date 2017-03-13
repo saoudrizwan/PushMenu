@@ -59,7 +59,7 @@ class PushMenu: UIView {
     func addOption(title: String, type: PushMenuCellType, action: (() -> Void)?) {
         let newOptionCellIndex = self.options.count
         if newOptionCellIndex > 6 {
-            print("PushMenu: You can't have more than 7 options!")
+            fatalError("PushMenu: You can't have more than 7 options!")
             return
         }
         let newOptionCell = PushMenuCell(index: newOptionCellIndex, title: title, style: self.style)
