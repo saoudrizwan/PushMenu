@@ -18,10 +18,12 @@
 
 PushMenu is a **revolutionary** iOS component that can easily be added to any `UIView`. PushMenu displays options which users can select **without lifting a finger**, either by using 3D Touch or sliding their finger across the menu. A cell in the menu is highlighted based on the amount of force the user applies to his screen. After a delay, that highlighted cell gets selected and its associated action gets called. PushMenu feels **right at home** with the iOS ecosystem and is a **new, yet comfortable** approach to displaying menu options to users.  
 
+**Note:** PushMenu works on all devices - users with devices that don't support 3D Touch can simply use the backup sliding mechanism to choose options.
+
 ## Demo
 *Simulators don't have 3D Touch capabilites, it's recommended to run the example project on a device.*
 
-The first demo is of PushMenu with 3D Touch in action. The other demos are of the alternative sliding mechanism.
+The first demo is of PushMenu with 3D Touch in action. The other demos are of the backup sliding mechanism.
 
 <a href="https://www.youtube.com/watch?v=Tv_EV6f8XDY" target="_blank"><img src="https://cloud.githubusercontent.com/assets/7799382/23856687/b89c6f52-07b7-11e7-8490-f3ca9cf79ab0.png" alt="video demo" width="290" height="518" border="0" /></a>
 <img src="https://cloud.githubusercontent.com/assets/7799382/23855695/f074bf8c-07b3-11e7-8a8c-d17e2dde947e.gif" alt="demo" width="290" height="518" border="0" />
