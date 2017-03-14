@@ -21,7 +21,7 @@ PushMenu is a **revolutionary** iOS component that can easily be added to any `U
 **Note:** *PushMenu works on all devices - users with devices that don't support 3D Touch can simply use the backup sliding mechanism to choose options.*
 
 ## Demo
-*Simulators don't have 3D Touch capabilites, it's recommended to run the example project on a device.*
+*Most simulators don't have 3D Touch capabilites, it's recommended to run the example project on a device.*
 
 The first demo is of PushMenu with 3D Touch in action. The other demos are of the backup sliding mechanism.
 
