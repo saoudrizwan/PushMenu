@@ -126,11 +126,11 @@ photoView.pushMenu.selectionDelay = 0.7 // default is 0.45
 PushMenu can only have 7 options - [why?](#7-options-limit)
 
 All PushMenus should have a cancel option first. Cancel options don't become selected, giving users as much time as they need to decide what option they want.
-Apple says the average force is ~ 1.0, the amount of force that is needed to highlight the first cell, which is why it's important that the first cell is a cancel type.
+Apple says the average force is ~ 1.0, the amount of force that is needed to highlight the first cell, which is why it's important that the first cell is of cancel type.
 ```swift
 photoView.pushMenu.addCell(title: "Cancel", type: .cancel, action: nil)
 ```
-Now you can add normal options:
+Then you can add normal options:
 ```swift
 photoView.pushMenu.addCell(title: "Save to Library", type: .normal, action: {
     // this closure gets called immediately after this cell is selected
