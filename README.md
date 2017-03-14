@@ -69,7 +69,7 @@ platform :ios, '9.0'
     target 'ProjectName' do
     use_frameworks!
 
-      pod 'PushMenu'
+        pod 'PushMenu'
 
 end
 ```
