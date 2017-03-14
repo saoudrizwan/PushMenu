@@ -12,18 +12,18 @@
 		103447ED1E769CE300640B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103447EB1E769CE300640B63 /* Main.storyboard */; };
 		103447EF1E769CE300640B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103447EE1E769CE300640B63 /* Assets.xcassets */; };
 		103447F21E769CE300640B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103447F01E769CE300640B63 /* LaunchScreen.storyboard */; };
-		1035CD431E7772100059C00D /* PushMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1035CD421E7772100059C00D /* PushMenu.framework */; };
-		1035CD441E7772100059C00D /* PushMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1035CD421E7772100059C00D /* PushMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1035CD5A1E7775C70059C00D /* PushMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1035CD591E7775C70059C00D /* PushMenu.framework */; };
+		1035CD5B1E7775C70059C00D /* PushMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1035CD591E7775C70059C00D /* PushMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1035CD451E7772100059C00D /* Embed Frameworks */ = {
+		1035CD5C1E7775C70059C00D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1035CD441E7772100059C00D /* PushMenu.framework in Embed Frameworks */,
+				1035CD5B1E7775C70059C00D /* PushMenu.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,8 +38,7 @@
 		103447EE1E769CE300640B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103447F11E769CE300640B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103447F31E769CE300640B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1034480B1E76A96C00640B63 /* PushMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushMenu.framework; path = "../../../Library/Developer/Xcode/DerivedData/PushMenu-esyvapalazmnkpewfbcsilxwafkw/Build/Products/Debug-iphonesimulator/PushMenu.framework"; sourceTree = "<group>"; };
-		1035CD421E7772100059C00D /* PushMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PushMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1035CD591E7775C70059C00D /* PushMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PushMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1035CD431E7772100059C00D /* PushMenu.framework in Frameworks */,
+				1035CD5A1E7775C70059C00D /* PushMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +56,6 @@
 		103447DB1E769CE300640B63 = {
 			isa = PBXGroup;
 			children = (
-				1035CD421E7772100059C00D /* PushMenu.framework */,
 				103447E61E769CE300640B63 /* PushMenuExample */,
 				103447E51E769CE300640B63 /* Products */,
 				1034480A1E76A96C00640B63 /* Frameworks */,
@@ -88,7 +86,7 @@
 		1034480A1E76A96C00640B63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1034480B1E76A96C00640B63 /* PushMenu.framework */,
+				1035CD591E7775C70059C00D /* PushMenu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,7 +101,7 @@
 				103447E01E769CE300640B63 /* Sources */,
 				103447E11E769CE300640B63 /* Frameworks */,
 				103447E21E769CE300640B63 /* Resources */,
-				1035CD451E7772100059C00D /* Embed Frameworks */,
+				1035CD5C1E7775C70059C00D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,7 +124,6 @@
 				TargetAttributes = {
 					103447E31E769CE300640B63 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5M795QY47C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -291,7 +288,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5M795QY47C;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PushMenuExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -305,7 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5M795QY47C;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PushMenuExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
