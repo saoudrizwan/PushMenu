@@ -66,10 +66,10 @@ PushMenu requires **iOS 9+** and is compatible with **Swift 3** projects.
 
 ```ruby
 platform :ios, '9.0'
-    target 'ProjectName' do
-    use_frameworks!
+target 'ProjectName' do
+use_frameworks!
 
-        pod 'PushMenu'
+pod 'PushMenu'
 
 end
 ```
