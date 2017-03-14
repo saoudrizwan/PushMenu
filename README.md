@@ -142,7 +142,7 @@ photoView.pushMenu.addCell(title: "Delete Image", type: .destructive, action: {
 ```
 
 ## 7 Options Limit
-Most devices that have 3D Touch capabilites have a maximum force of 6.6666667, and Apple says that an average touch's force is ~1.0. PushMenu was built with this in mind, so each option cell of a menu takes 1 force unit. Meaning a force of 0-1 will highlight the first cell, a force of 1-2 will highlight the second cell, and so on until the 7th cell which gets highlighted from a force of 6-6.6666667. A force unit of 1 is small, yet comfortable enough for a user to get a feel of what amount of pressure it takes to get to a certain cell.
+Most devices that have 3D Touch capabilites have a maximum force of 6.6666667, and Apple says that an average touch's force is ~1.0. PushMenu was built with this in mind, so each option cell of a menu takes 1 force unit. Meaning a force of 0-1 will highlight the first cell, a force of 1-2 will highlight the second cell, and so on until the 7th cell which gets highlighted from a force of 6 or above. A force unit of 1 is small, yet comfortable enough for a user to get a feel of what amount of pressure it takes to get to a certain cell.
 
 ## Documentation
 Option + click on any of PushMenu's properties/methods for detailed documentation.
