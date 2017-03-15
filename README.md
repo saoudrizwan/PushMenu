@@ -93,6 +93,8 @@ And `import PushMenu` in the files you'd like to use it.
 
 ### Enabling PushMenu
 Enabling PushMenu for a view automatically creates a new instance of a `PushMenu` and attaches a `PushMenuGestureRecognizer` to the view.
+
+**Note:** You must enable pushMenu first before customizing it (see below)
 ```swift
 photo.pushMenu.isEnabled = true
 ```
